@@ -21,7 +21,7 @@ def netejar():
 # Crear finestra
 finestra = tk.Tk()
 finestra.title("Calculadora")
-finestra.geometry("300x400")
+finestra.geometry("350x450")
 
 # Pantalla
 entrada = tk.Entry(finestra, font=("Arial", 20), bd=10, relief=tk.RIDGE, justify="right")
